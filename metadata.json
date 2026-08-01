@@ -1,37 +1,37 @@
 {
-  "team_id": "your-team-id",
-  "domain": "coding_assistants",
-  "language_scope": ["en"],
-  "african_alpha_claim": false,
+  "team_id": "TODO-CONFIRM-ON-DEVPOST",
+  "domain": "agriculture",
+  "language_scope": ["en", "sn"],
+  "african_alpha_claim": true,
   "budget_laptop_claim": true,
   "submitter": {
-    "name": "your-name",
-    "email": "your-email@domain.com",
-    "github_handle": "your-github"
+    "name": "adrian-vincent",
+    "email": "adriannyamutumbu@gmail.com",
+    "github_handle": "adrianvince7"
   },
   "cross_disciplinary_pairing": {
-    "discipline": "education",
+    "discipline": "agronomy x agricultural economics",
     "load_bearing": true,
-    "description": "Brief description of how your model serves a real-world domain."
+    "description": "Agronomic advice is generated jointly with farm-economics reasoning: every recommendation is returned in free / low-cost / investment tiers with input-cost and ROI logic, so a smallholder with no budget and a farmer with capital receive materially different, actionable answers to the same question. The economics layer is not commentary appended to agronomy; it determines which agronomic action is recommended."
   },
   "test_prompts": [
     {
       "prompt_id": "tp_001",
-      "prompt": "Write a Python function that reads a CSV file and returns the column with the highest mean value."
+      "prompt": "My maize in Murewa is yellowing on the older leaves and I have about $30 to spend this month. What should I do?"
     },
     {
       "prompt_id": "tp_002",
-      "prompt": "Explain the difference between a list and a tuple in Python, and give one example where each is the better choice."
+      "prompt": "I farm 2 hectares of maize and groundnuts on sandy soil in Natural Region IV. People say this coming season will be a dry one. How should I plan my planting and spending?"
     }
   ],
   "model": {
-    "name": "SmolLM2-135M-Instruct-Q4_K_M",
+    "name": "TODO-SET-AT-FREEZE",
     "runtime": "llama.cpp",
     "quantization": "GGUF Q4_K_M",
-    "parameters_estimate": "135M",
+    "parameters_estimate": "TODO-SET-AT-FREEZE",
     "packaging": "binary_bundle"
   },
   "_runtime": {
-    "model_path": "model/SmolLM2-135M-Instruct-Q4_K_M.gguf"
+    "model_path": "model/TODO-SET-AT-FREEZE.gguf"
   }
 }
