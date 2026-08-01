@@ -14,3 +14,10 @@ __pycache__/
 # Local profiler output
 submission.json
 audit.json
+*.gguf
+*.bin
+*.safetensors
+model/*
+!model/.gitkeep
+.venv/
+__pycache__/
